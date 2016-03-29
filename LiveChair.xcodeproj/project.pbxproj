@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E86B6FFD1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B6FFC1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift */; };
+		E86B6FFF1C9D94520087BFF3 /* BarberHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B6FFE1C9D94520087BFF3 /* BarberHomeViewController.swift */; };
+		E86B70011C9DA25A0087BFF3 /* BarberSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B70001C9DA25A0087BFF3 /* BarberSignInViewController.swift */; };
+		E8C9ED581C97872A00A044E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9ED571C97872A00A044E2 /* AppDelegate.swift */; };
+		E8C9ED5A1C97872A00A044E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9ED591C97872A00A044E2 /* ViewController.swift */; };
+		E8C9ED5D1C97872A00A044E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C9ED5B1C97872A00A044E2 /* Main.storyboard */; };
+		E8C9ED601C97872A00A044E2 /* LiveChair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8C9ED5E1C97872A00A044E2 /* LiveChair.xcdatamodeld */; };
+		E8C9ED621C97872A00A044E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C9ED611C97872A00A044E2 /* Assets.xcassets */; };
+		E8C9ED651C97872B00A044E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C9ED631C97872B00A044E2 /* LaunchScreen.storyboard */; };
+		E8C9ED701C97872B00A044E2 /* LiveChairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9ED6F1C97872B00A044E2 /* LiveChairTests.swift */; };
+		E8C9ED7B1C97872B00A044E2 /* LiveChairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9ED7A1C97872B00A044E2 /* LiveChairUITests.swift */; };
+		E8D1B32A1CA31C1600AD08C9 /* ClientSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D1B3291CA31C1600AD08C9 /* ClientSignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8C9ED6C1C97872B00A044E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8C9ED4C1C97872A00A044E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8C9ED531C97872A00A044E2;
+			remoteInfo = LiveChair;
+		};
+		E8C9ED771C97872B00A044E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8C9ED4C1C97872A00A044E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8C9ED531C97872A00A044E2;
+			remoteInfo = LiveChair;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E86B6FFC1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberSignUpViewController.swift; sourceTree = "<group>"; };
+		E86B6FFE1C9D94520087BFF3 /* BarberHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberHomeViewController.swift; sourceTree = "<group>"; };
+		E86B70001C9DA25A0087BFF3 /* BarberSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberSignInViewController.swift; sourceTree = "<group>"; };
+		E8C9ED541C97872A00A044E2 /* LiveChair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveChair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C9ED571C97872A00A044E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8C9ED591C97872A00A044E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8C9ED5C1C97872A00A044E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8C9ED5F1C97872A00A044E2 /* LiveChair.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiveChair.xcdatamodel; sourceTree = "<group>"; };
+		E8C9ED611C97872A00A044E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8C9ED641C97872B00A044E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8C9ED661C97872B00A044E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C9ED6B1C97872B00A044E2 /* LiveChairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveChairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C9ED6F1C97872B00A044E2 /* LiveChairTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChairTests.swift; sourceTree = "<group>"; };
+		E8C9ED711C97872B00A044E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C9ED761C97872B00A044E2 /* LiveChairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveChairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C9ED7A1C97872B00A044E2 /* LiveChairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChairUITests.swift; sourceTree = "<group>"; };
+		E8C9ED7C1C97872B00A044E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D1B3291CA31C1600AD08C9 /* ClientSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientSignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8C9ED511C97872A00A044E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C9ED681C97872B00A044E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C9ED731C97872B00A044E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8C9ED4B1C97872A00A044E2 = {
+			isa = PBXGroup;
+			children = (
+				E8C9ED561C97872A00A044E2 /* LiveChair */,
+				E8C9ED6E1C97872B00A044E2 /* LiveChairTests */,
+				E8C9ED791C97872B00A044E2 /* LiveChairUITests */,
+				E8C9ED551C97872A00A044E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8C9ED551C97872A00A044E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8C9ED541C97872A00A044E2 /* LiveChair.app */,
+				E8C9ED6B1C97872B00A044E2 /* LiveChairTests.xctest */,
+				E8C9ED761C97872B00A044E2 /* LiveChairUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8C9ED561C97872A00A044E2 /* LiveChair */ = {
+			isa = PBXGroup;
+			children = (
+				E8C9ED571C97872A00A044E2 /* AppDelegate.swift */,
+				E8D1B3291CA31C1600AD08C9 /* ClientSignUpViewController.swift */,
+				E8C9ED591C97872A00A044E2 /* ViewController.swift */,
+				E86B6FFC1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift */,
+				E8C9ED5B1C97872A00A044E2 /* Main.storyboard */,
+				E8C9ED611C97872A00A044E2 /* Assets.xcassets */,
+				E8C9ED631C97872B00A044E2 /* LaunchScreen.storyboard */,
+				E8C9ED661C97872B00A044E2 /* Info.plist */,
+				E8C9ED5E1C97872A00A044E2 /* LiveChair.xcdatamodeld */,
+				E86B6FFE1C9D94520087BFF3 /* BarberHomeViewController.swift */,
+				E86B70001C9DA25A0087BFF3 /* BarberSignInViewController.swift */,
+			);
+			path = LiveChair;
+			sourceTree = "<group>";
+		};
+		E8C9ED6E1C97872B00A044E2 /* LiveChairTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8C9ED6F1C97872B00A044E2 /* LiveChairTests.swift */,
+				E8C9ED711C97872B00A044E2 /* Info.plist */,
+			);
+			path = LiveChairTests;
+			sourceTree = "<group>";
+		};
+		E8C9ED791C97872B00A044E2 /* LiveChairUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8C9ED7A1C97872B00A044E2 /* LiveChairUITests.swift */,
+				E8C9ED7C1C97872B00A044E2 /* Info.plist */,
+			);
+			path = LiveChairUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8C9ED531C97872A00A044E2 /* LiveChair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C9ED7F1C97872B00A044E2 /* Build configuration list for PBXNativeTarget "LiveChair" */;
+			buildPhases = (
+				E8C9ED501C97872A00A044E2 /* Sources */,
+				E8C9ED511C97872A00A044E2 /* Frameworks */,
+				E8C9ED521C97872A00A044E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveChair;
+			productName = LiveChair;
+			productReference = E8C9ED541C97872A00A044E2 /* LiveChair.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8C9ED6A1C97872B00A044E2 /* LiveChairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C9ED821C97872B00A044E2 /* Build configuration list for PBXNativeTarget "LiveChairTests" */;
+			buildPhases = (
+				E8C9ED671C97872B00A044E2 /* Sources */,
+				E8C9ED681C97872B00A044E2 /* Frameworks */,
+				E8C9ED691C97872B00A044E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8C9ED6D1C97872B00A044E2 /* PBXTargetDependency */,
+			);
+			name = LiveChairTests;
+			productName = LiveChairTests;
+			productReference = E8C9ED6B1C97872B00A044E2 /* LiveChairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8C9ED751C97872B00A044E2 /* LiveChairUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C9ED851C97872B00A044E2 /* Build configuration list for PBXNativeTarget "LiveChairUITests" */;
+			buildPhases = (
+				E8C9ED721C97872B00A044E2 /* Sources */,
+				E8C9ED731C97872B00A044E2 /* Frameworks */,
+				E8C9ED741C97872B00A044E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8C9ED781C97872B00A044E2 /* PBXTargetDependency */,
+			);
+			name = LiveChairUITests;
+			productName = LiveChairUITests;
+			productReference = E8C9ED761C97872B00A044E2 /* LiveChairUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8C9ED4C1C97872A00A044E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiveChair;
+				TargetAttributes = {
+					E8C9ED531C97872A00A044E2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E8C9ED6A1C97872B00A044E2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E8C9ED531C97872A00A044E2;
+					};
+					E8C9ED751C97872B00A044E2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E8C9ED531C97872A00A044E2;
+					};
+				};
+			};
+			buildConfigurationList = E8C9ED4F1C97872A00A044E2 /* Build configuration list for PBXProject "LiveChair" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8C9ED4B1C97872A00A044E2;
+			productRefGroup = E8C9ED551C97872A00A044E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8C9ED531C97872A00A044E2 /* LiveChair */,
+				E8C9ED6A1C97872B00A044E2 /* LiveChairTests */,
+				E8C9ED751C97872B00A044E2 /* LiveChairUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8C9ED521C97872A00A044E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C9ED651C97872B00A044E2 /* LaunchScreen.storyboard in Resources */,
+				E8C9ED621C97872A00A044E2 /* Assets.xcassets in Resources */,
+				E8C9ED5D1C97872A00A044E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C9ED691C97872B00A044E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C9ED741C97872B00A044E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8C9ED501C97872A00A044E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86B6FFD1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift in Sources */,
+				E86B6FFF1C9D94520087BFF3 /* BarberHomeViewController.swift in Sources */,
+				E86B70011C9DA25A0087BFF3 /* BarberSignInViewController.swift in Sources */,
+				E8D1B32A1CA31C1600AD08C9 /* ClientSignUpViewController.swift in Sources */,
+				E8C9ED5A1C97872A00A044E2 /* ViewController.swift in Sources */,
+				E8C9ED601C97872A00A044E2 /* LiveChair.xcdatamodeld in Sources */,
+				E8C9ED581C97872A00A044E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C9ED671C97872B00A044E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C9ED701C97872B00A044E2 /* LiveChairTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C9ED721C97872B00A044E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C9ED7B1C97872B00A044E2 /* LiveChairUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8C9ED6D1C97872B00A044E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8C9ED531C97872A00A044E2 /* LiveChair */;
+			targetProxy = E8C9ED6C1C97872B00A044E2 /* PBXContainerItemProxy */;
+		};
+		E8C9ED781C97872B00A044E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8C9ED531C97872A00A044E2 /* LiveChair */;
+			targetProxy = E8C9ED771C97872B00A044E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8C9ED5B1C97872A00A044E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8C9ED5C1C97872A00A044E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8C9ED631C97872B00A044E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8C9ED641C97872B00A044E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8C9ED7D1C97872B00A044E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8C9ED7E1C97872B00A044E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8C9ED801C97872B00A044E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveChair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livechairapp.LiveChair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8C9ED811C97872B00A044E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveChair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livechairapp.LiveChair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8C9ED831C97872B00A044E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveChairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livechairapp.LiveChairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveChair.app/LiveChair";
+			};
+			name = Debug;
+		};
+		E8C9ED841C97872B00A044E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveChairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livechairapp.LiveChairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveChair.app/LiveChair";
+			};
+			name = Release;
+		};
+		E8C9ED861C97872B00A044E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveChairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livechairapp.LiveChairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveChair;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E8C9ED871C97872B00A044E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveChairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livechairapp.LiveChairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveChair;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8C9ED4F1C97872A00A044E2 /* Build configuration list for PBXProject "LiveChair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C9ED7D1C97872B00A044E2 /* Debug */,
+				E8C9ED7E1C97872B00A044E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8C9ED7F1C97872B00A044E2 /* Build configuration list for PBXNativeTarget "LiveChair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C9ED801C97872B00A044E2 /* Debug */,
+				E8C9ED811C97872B00A044E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8C9ED821C97872B00A044E2 /* Build configuration list for PBXNativeTarget "LiveChairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C9ED831C97872B00A044E2 /* Debug */,
+				E8C9ED841C97872B00A044E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8C9ED851C97872B00A044E2 /* Build configuration list for PBXNativeTarget "LiveChairUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C9ED861C97872B00A044E2 /* Debug */,
+				E8C9ED871C97872B00A044E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8C9ED5E1C97872A00A044E2 /* LiveChair.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8C9ED5F1C97872A00A044E2 /* LiveChair.xcdatamodel */,
+			);
+			currentVersion = E8C9ED5F1C97872A00A044E2 /* LiveChair.xcdatamodel */;
+			path = LiveChair.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8C9ED4C1C97872A00A044E2 /* Project object */;
+}
