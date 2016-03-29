@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class BarberSignInViewController: UIViewController {
+class SignInViewController: UIViewController {
     @IBOutlet var emailTxt: UITextField!
     @IBOutlet var passwordTxt: UITextField!
     @IBOutlet var errorLbl: UILabel!
@@ -18,7 +18,7 @@ class BarberSignInViewController: UIViewController {
         let email = self.emailTxt.text! as String
         let password = self.passwordTxt.text! as String
         
-        let url = NSURL(string: "http://localhost/livechairapp/signin")!
+        let url = NSURL(string: "http://localhost/livechairapp/out/signin")!
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "POST"
         request.HTTPBody = "email=\(email)&password=\(password)".dataUsingEncoding(NSUTF8StringEncoding)
@@ -40,13 +40,23 @@ class BarberSignInViewController: UIViewController {
                         
                         print(json)
                         
-                        let defaults = NSUserDefaults.standardUserDefaults()
-                        defaults.setValue(email, forKey: "email")
-                        defaults.setValue(password, forKey: "password")
-                        defaults.setValue(json["shop"], forKey: "shopName")
-                        defaults.setValue(json["address"], forKey: "shopAddress")
+                        if json["type"] as! String == "client" {
+                            let defaults = NSUserDefaults.standardUserDefaults()
+                            defaults.setValue(email, forKey: "email")
+                            defaults.setValue(password, forKey: "password")
+                            defaults.setValue(json["name"], forKey: "name")
+                            
+                            self.navigationController?.performSegueWithIdentifier("clientHomeSegue", sender: nil)
+                        } else {
+                            let defaults = NSUserDefaults.standardUserDefaults()
+                            defaults.setValue(email, forKey: "email")
+                            defaults.setValue(password, forKey: "password")
+                            defaults.setValue(json["shop"], forKey: "shopName")
+                            defaults.setValue(json["address"], forKey: "shopAddress")
+                            self.navigationController?.performSegueWithIdentifier("barberHomeSegue", sender: nil)
+                        }
                         
-                        self.navigationController?.performSegueWithIdentifier("barberHomeSegue", sender: nil)
+                        
                     })
                 }
                 

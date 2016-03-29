@@ -24,7 +24,7 @@ class BarberSignUpViewController: UIViewController {
         let shopName = self.shopNameTxt.text! as String
         let shopAddress = self.shopAddressTxt.text! as String
         
-        let url = NSURL(string: "http://localhost/livechairapp/signup/barber")!
+        let url = NSURL(string: "http://localhost/livechairapp/out/signup/barber")!
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "POST"
         request.HTTPBody = "email=\(email)&password=\(password)&shop=\(shopName)&address=\(shopAddress)&type=barber".dataUsingEncoding(NSUTF8StringEncoding)

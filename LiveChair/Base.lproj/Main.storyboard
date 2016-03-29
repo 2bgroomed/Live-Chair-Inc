@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tad-dX-naR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tad-dX-naR">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -224,6 +224,7 @@ haircut and save money!</string>
                         <viewControllerLayoutGuide type="bottom" id="xec-b5-9Qc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kie-eU-oe3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="input" translatesAutoresizingMaskIntoConstraints="NO" id="F2G-IG-NgP">
@@ -335,32 +336,32 @@ haircut and save money!</string>
                                 <exclude reference="TVE-EL-iLd"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="KDp-Ds-XrE"/>
-                                <exclude reference="RGc-0P-BdS"/>
+                                <exclude reference="KMC-vL-LVd"/>
+                                <exclude reference="o16-xR-zYV"/>
                                 <exclude reference="9z9-Xq-jYj"/>
                                 <exclude reference="IiQ-aP-iS6"/>
                                 <exclude reference="cD2-dV-dtg"/>
                                 <exclude reference="doJ-c8-uD9"/>
-                                <exclude reference="84l-0v-HRf"/>
-                                <exclude reference="jYS-WA-r7t"/>
-                                <exclude reference="Fkp-x5-4zP"/>
-                                <exclude reference="Pbt-mV-4qd"/>
-                                <exclude reference="TJP-N1-9cb"/>
-                                <exclude reference="YQJ-uz-wxP"/>
-                                <exclude reference="5zm-24-wbH"/>
-                                <exclude reference="KVy-ow-38U"/>
                                 <exclude reference="1IF-rl-hai"/>
                                 <exclude reference="Feo-Ia-Cq6"/>
                                 <exclude reference="Qjy-5O-vML"/>
                                 <exclude reference="f1F-B9-1lb"/>
+                                <exclude reference="Fkp-x5-4zP"/>
+                                <exclude reference="Pbt-mV-4qd"/>
+                                <exclude reference="TJP-N1-9cb"/>
+                                <exclude reference="YQJ-uz-wxP"/>
                                 <exclude reference="dxP-3P-jOq"/>
                                 <exclude reference="hC1-Sd-Onu"/>
                                 <exclude reference="yh6-4n-GwW"/>
                                 <exclude reference="Kp7-nN-LKi"/>
                                 <exclude reference="ct5-sM-yMT"/>
                                 <exclude reference="mWz-KW-qam"/>
-                                <exclude reference="KMC-vL-LVd"/>
-                                <exclude reference="o16-xR-zYV"/>
+                                <exclude reference="84l-0v-HRf"/>
+                                <exclude reference="jYS-WA-r7t"/>
+                                <exclude reference="KDp-Ds-XrE"/>
+                                <exclude reference="RGc-0P-BdS"/>
+                                <exclude reference="5zm-24-wbH"/>
+                                <exclude reference="KVy-ow-38U"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -375,32 +376,32 @@ haircut and save money!</string>
                                 <include reference="TVE-EL-iLd"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="KDp-Ds-XrE"/>
-                                <include reference="RGc-0P-BdS"/>
+                                <include reference="KMC-vL-LVd"/>
+                                <include reference="o16-xR-zYV"/>
                                 <include reference="9z9-Xq-jYj"/>
                                 <include reference="IiQ-aP-iS6"/>
                                 <include reference="cD2-dV-dtg"/>
                                 <include reference="doJ-c8-uD9"/>
-                                <include reference="84l-0v-HRf"/>
-                                <include reference="jYS-WA-r7t"/>
-                                <include reference="Fkp-x5-4zP"/>
-                                <include reference="Pbt-mV-4qd"/>
-                                <include reference="TJP-N1-9cb"/>
-                                <include reference="YQJ-uz-wxP"/>
-                                <include reference="5zm-24-wbH"/>
-                                <include reference="KVy-ow-38U"/>
                                 <include reference="1IF-rl-hai"/>
                                 <include reference="Feo-Ia-Cq6"/>
                                 <include reference="Qjy-5O-vML"/>
                                 <include reference="f1F-B9-1lb"/>
+                                <include reference="Fkp-x5-4zP"/>
+                                <include reference="Pbt-mV-4qd"/>
+                                <include reference="TJP-N1-9cb"/>
+                                <include reference="YQJ-uz-wxP"/>
                                 <include reference="dxP-3P-jOq"/>
                                 <include reference="hC1-Sd-Onu"/>
                                 <include reference="yh6-4n-GwW"/>
                                 <include reference="Kp7-nN-LKi"/>
                                 <include reference="ct5-sM-yMT"/>
                                 <include reference="mWz-KW-qam"/>
-                                <include reference="KMC-vL-LVd"/>
-                                <include reference="o16-xR-zYV"/>
+                                <include reference="84l-0v-HRf"/>
+                                <include reference="jYS-WA-r7t"/>
+                                <include reference="KDp-Ds-XrE"/>
+                                <include reference="RGc-0P-BdS"/>
+                                <include reference="5zm-24-wbH"/>
+                                <include reference="KVy-ow-38U"/>
                             </mask>
                         </variation>
                     </view>
@@ -418,7 +419,7 @@ haircut and save money!</string>
         <!--Sign In-->
         <scene sceneID="PFw-dq-ZSY">
             <objects>
-                <viewController id="gH2-Hh-Q9w" customClass="BarberSignInViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gH2-Hh-Q9w" customClass="SignInViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Go5-RZ-cu9"/>
                         <viewControllerLayoutGuide type="bottom" id="M8X-Hs-87P"/>
@@ -1091,30 +1092,45 @@ haircut and save money!</string>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gqA-3R-1nr"/>
                         <segue destination="c5i-WC-5NX" kind="presentation" identifier="barberHomeSegue" id="Gav-Jh-bw3"/>
-                        <segue destination="E6k-aI-Svq" kind="presentation" identifier="clientHomeSegue" id="pfv-WH-X2w"/>
+                        <segue destination="1y9-86-7Bh" kind="presentation" identifier="clientHomeSegue" id="C5v-uH-kja"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YA3-6T-CSa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137" y="1318"/>
         </scene>
-        <!--User Home-->
-        <scene sceneID="Uqr-WL-ocE">
+        <!--Client Home Table View Controller-->
+        <scene sceneID="xsV-IX-iRE">
             <objects>
-                <viewController id="2Sr-5V-dvE" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YE9-Rx-6vN"/>
-                        <viewControllerLayoutGuide type="bottom" id="BB0-ew-4zG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="G6o-aS-RaV">
+                <tableViewController id="5M6-AU-0Nv" customClass="ClientHomeTableViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="LcD-3i-mtn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="User Home" id="zM3-BN-6bH"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qgu-a1-5yF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Ofh-j1-AMs">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ofh-j1-AMs" id="iCR-Ri-z57">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5M6-AU-0Nv" id="GPK-L3-aIW"/>
+                            <outlet property="delegate" destination="5M6-AU-0Nv" id="s41-Uq-Orh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="iei-PN-2mW">
+                        <barButtonItem key="leftBarButtonItem" image="gear" id="tu8-VK-ayV">
+                            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4oo-Pv-L8E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1894.5" y="2724.75"/>
+            <point key="canvasLocation" x="1894" y="2726"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="apm-ud-P7N">
@@ -1135,27 +1151,28 @@ haircut and save money!</string>
             <point key="canvasLocation" x="1054.5" y="2046"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="nd8-Gh-xRJ">
+        <scene sceneID="QfI-vf-mZS">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E6k-aI-Svq" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1y9-86-7Bh" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dSQ-eJ-zmH">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m3O-Hp-ctr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="2Sr-5V-dvE" kind="relationship" relationship="rootViewController" id="ihR-nf-CAv"/>
+                        <segue destination="5M6-AU-0Nv" kind="relationship" relationship="rootViewController" id="rxa-KM-g6q"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kjd-OQ-DTV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fHa-OG-7KX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1054.5" y="2724.75"/>
+            <point key="canvasLocation" x="1054" y="2719"/>
         </scene>
     </scenes>
     <resources>
         <image name="bg" width="968" height="1078"/>
         <image name="circles" width="326" height="190"/>
+        <image name="gear" width="22" height="22"/>
         <image name="input" width="293" height="46"/>
         <image name="logo" width="318" height="120"/>
     </resources>
