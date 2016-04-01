@@ -38,8 +38,6 @@ class SignInViewController: UIViewController {
                 } else {
                     dispatch_async(dispatch_get_main_queue(), {
                         
-                        print(json)
-                        
                         if json["type"] as! String == "client" {
                             let defaults = NSUserDefaults.standardUserDefaults()
                             defaults.setValue(email, forKey: "email")

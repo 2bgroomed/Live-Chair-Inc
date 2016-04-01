@@ -17,6 +17,7 @@ extension ClientHomeTableViewController: UISearchResultsUpdating {
 class ClientHomeTableViewController: UITableViewController {
 
     let searchController = UISearchController(searchResultsController: nil)
+    var barbers:Array< AnyObject > = Array < AnyObject >()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,17 +47,17 @@ class ClientHomeTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return barbers.count
     }
     
     func getBarbers()
     {
-        let url = NSURL(string: "http://localhost/livechairapp/out/barber")!
+        let url = NSURL(string: "http://www.kaleidosblog.com/tutorial/tutorial.json")! // http://localhost/livechairapp/out/barber
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "GET"
 //        request.HTTPBody = "email=\(email)&password=\(password)&shop=\(shopName)&address=\(shopAddress)&type=barber".dataUsingEncoding(NSUTF8StringEncoding)
@@ -66,7 +67,7 @@ class ClientHomeTableViewController: UITableViewController {
         let task = session.dataTaskWithRequest(request, completionHandler: {data, response, error -> Void in
             
             do {
-                let json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! [String:AnyObject]
+                let json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! [String:Array< AnyObject >]
                 
                 if (json["error"] != nil) {
                     dispatch_async(dispatch_get_main_queue(), {
@@ -76,6 +77,7 @@ class ClientHomeTableViewController: UITableViewController {
                 } else {
                     dispatch_async(dispatch_get_main_queue(), {
                         print (json)
+                        self.barbers = json["barbers"]!
                     })
                 }
                 
