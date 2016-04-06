@@ -215,7 +215,7 @@ haircut and save money!</string>
             </objects>
             <point key="canvasLocation" x="1054.5" y="657"/>
         </scene>
-        <!--Client Sign Up View Controller-->
+        <!--Title-->
         <scene sceneID="VOJ-5y-A60">
             <objects>
                 <viewController id="Jrg-J6-3aX" customClass="ClientSignUpViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
@@ -405,6 +405,7 @@ haircut and save money!</string>
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="FxX-c2-LQK"/>
                     <connections>
                         <outlet property="emailTxt" destination="jaF-hf-W1p" id="9ii-Va-1pd"/>
                         <outlet property="errorLbl" destination="TVE-EL-iLd" id="NnQ-fk-jHA"/>
@@ -817,7 +818,7 @@ haircut and save money!</string>
             </objects>
             <point key="canvasLocation" x="1894.5" y="3"/>
         </scene>
-        <!--shopName-->
+        <!--Title-->
         <scene sceneID="gQR-WF-yIY">
             <objects>
                 <viewController id="Irt-h5-f4e" customClass="BarberHomeViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
@@ -1072,7 +1073,11 @@ haircut and save money!</string>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="shopName" id="WFY-oW-Xg0"/>
+                    <navigationItem key="navigationItem" title="Title" id="mK2-yA-Bfm">
+                        <barButtonItem key="rightBarButtonItem" image="user" id="NX7-cd-0bP">
+                            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cRR-FB-k2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1103,20 +1108,21 @@ haircut and save money!</string>
         <scene sceneID="xsV-IX-iRE">
             <objects>
                 <tableViewController id="5M6-AU-0Nv" customClass="ClientHomeTableViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="LcD-3i-mtn">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="175" sectionHeaderHeight="18" sectionFooterHeight="18" id="LcD-3i-mtn">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Ofh-j1-AMs">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="barberCell" rowHeight="175" id="Ofh-j1-AMs">
+                                <rect key="frame" x="0.0" y="114" width="600" height="175"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ofh-j1-AMs" id="iCR-Ri-z57">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="174"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="5M6-AU-0Nv" id="GPK-L3-aIW"/>
                             <outlet property="delegate" destination="5M6-AU-0Nv" id="s41-Uq-Orh"/>
@@ -1175,5 +1181,6 @@ haircut and save money!</string>
         <image name="gear" width="22" height="22"/>
         <image name="input" width="293" height="46"/>
         <image name="logo" width="318" height="120"/>
+        <image name="user" width="16" height="24"/>
     </resources>
 </document>

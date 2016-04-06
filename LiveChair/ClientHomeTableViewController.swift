@@ -10,7 +10,7 @@ import UIKit
 
 extension ClientHomeTableViewController: UISearchResultsUpdating {
     func updateSearchResultsForSearchController(searchController: UISearchController) {
-        //filterContentForSearchText(searchController.searchBar.text!)
+        filterContentForSearchText(searchController.searchBar.text!)
     }
 }
 
@@ -28,7 +28,7 @@ class ClientHomeTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        getBarbers()
+        getBarbers("All")
         
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
@@ -55,12 +55,11 @@ class ClientHomeTableViewController: UITableViewController {
         return barbers.count
     }
     
-    func getBarbers()
+    func getBarbers(searchText:String)
     {
-        let url = NSURL(string: "http://www.kaleidosblog.com/tutorial/tutorial.json")! // http://localhost/livechairapp/out/barber
+        let url = NSURL(string: "http://localhost/livechairapp/out/barber?s=\(searchText)")! // http://localhost/livechairapp/out/barber // http://www.kaleidosblog.com/tutorial/tutorial.json
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "GET"
-//        request.HTTPBody = "email=\(email)&password=\(password)&shop=\(shopName)&address=\(shopAddress)&type=barber".dataUsingEncoding(NSUTF8StringEncoding)
         let session = NSURLSession.sharedSession()
         
         
@@ -78,6 +77,7 @@ class ClientHomeTableViewController: UITableViewController {
                     dispatch_async(dispatch_get_main_queue(), {
                         print (json)
                         self.barbers = json["barbers"]!
+                        self.tableView.reloadData()
                     })
                 }
                 
@@ -92,16 +92,31 @@ class ClientHomeTableViewController: UITableViewController {
         task.resume()
     
     }
-
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("barberCell", forIndexPath: indexPath)
 
-        // Configure the cell...
+        
+        let frame = UIView(frame: CGRectMake(0,cell.frame.height-40,cell.frame.width, 40))
+        frame.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.65)
+        
+        let shop = UILabel(frame: CGRectMake(10,10,cell.frame.width-20,20))
+        shop.textColor = UIColor.whiteColor()
+        shop.font = UIFont(name: "HeleveticaNeue-Bold", size: 13)
+        shop.text = barbers[indexPath.row]["shop"] as? String
+        shop.text = shop.text?.uppercaseString
+        
+        frame.addSubview(shop)
 
+        cell.addSubview(frame)
+        
         return cell
     }
-    */
+    
+    func filterContentForSearchText(searchText: String) {
+    
+        getBarbers(searchText)
+    }
 
     /*
     // Override to support conditional editing of the table view.
