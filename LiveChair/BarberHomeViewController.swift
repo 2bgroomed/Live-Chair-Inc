@@ -14,6 +14,8 @@ class BarberHomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -36,5 +38,7 @@ class BarberHomeViewController: UIViewController {
         if let shopName = defaults.stringForKey("shopName") {
             self.navigationItem.title = shopName
         }
+        
     }
+    
 }
