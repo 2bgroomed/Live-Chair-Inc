@@ -107,7 +107,23 @@ class ClientHomeTableViewController: UITableViewController {
         shop.text = shop.text?.uppercaseString
         
         frame.addSubview(shop)
-
+        
+        let pic = UIImageView(frame: CGRectMake(0, 0, cell.frame.width, cell.frame.height))
+        pic.contentMode = .ScaleAspectFill
+        let id = barbers[indexPath.row]["id"] as! String
+        let url = NSURL(string: "http://localhost/livechairapp/out/public/img/barbers/\(id).jpg")
+        
+        print (id)
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
+            if let data = NSData(contentsOfURL: url!) { //make sure your image in this url does exist, otherwise unwrap in a if let check
+                dispatch_async(dispatch_get_main_queue(), {
+                    pic.image = UIImage(data: data)
+                });
+            }
+        }
+        
+        cell.addSubview(pic)
         cell.addSubview(frame)
         
         return cell
@@ -162,5 +178,12 @@ class ClientHomeTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let row = self.tableView.indexPathForSelectedRow!.row
+        print("row \(row) was selected")
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
 
 }

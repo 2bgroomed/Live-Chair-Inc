@@ -1097,14 +1097,17 @@ haircut and save money!</string>
             <objects>
                 <tableViewController id="BJm-d6-GwB" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="hcu-qC-ftB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="NOTIFICATIONS" id="t6P-3b-j0Z">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="y9h-gS-Ezz">
+                                        <rect key="frame" x="0.0" y="114" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y9h-gS-Ezz" id="cWR-X2-W6i">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3EJ-Nb-I4d">
@@ -1113,7 +1116,7 @@ haircut and save money!</string>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Accepted" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mua-eq-ElW">
                                                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1129,10 +1132,10 @@ haircut and save money!</string>
                                                     <exclude reference="Mua-eq-ElW"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="3HR-Q8-X0a"/>
-                                                    <exclude reference="BFi-iL-Oq4"/>
                                                     <exclude reference="eWC-ce-fl9"/>
                                                     <exclude reference="hGJ-va-eRY"/>
+                                                    <exclude reference="3HR-Q8-X0a"/>
+                                                    <exclude reference="BFi-iL-Oq4"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -1141,23 +1144,25 @@ haircut and save money!</string>
                                                     <include reference="Mua-eq-ElW"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="3HR-Q8-X0a"/>
-                                                    <include reference="BFi-iL-Oq4"/>
                                                     <include reference="eWC-ce-fl9"/>
                                                     <include reference="hGJ-va-eRY"/>
+                                                    <include reference="3HR-Q8-X0a"/>
+                                                    <include reference="BFi-iL-Oq4"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="NCd-lm-XQ1">
+                                        <rect key="frame" x="0.0" y="158" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NCd-lm-XQ1" id="RFH-Su-jan">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIP Alerts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1a-a1-vGy">
                                                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Lq2-6l-rso">
@@ -1176,10 +1181,10 @@ haircut and save money!</string>
                                                     <exclude reference="Lq2-6l-rso"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="Bx7-jo-xUg"/>
-                                                    <exclude reference="kSO-K9-WMf"/>
                                                     <exclude reference="Jjq-ZE-wud"/>
                                                     <exclude reference="RrZ-uZ-7In"/>
+                                                    <exclude reference="Bx7-jo-xUg"/>
+                                                    <exclude reference="kSO-K9-WMf"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -1188,23 +1193,25 @@ haircut and save money!</string>
                                                     <include reference="Lq2-6l-rso"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="Bx7-jo-xUg"/>
-                                                    <include reference="kSO-K9-WMf"/>
                                                     <include reference="Jjq-ZE-wud"/>
                                                     <include reference="RrZ-uZ-7In"/>
+                                                    <include reference="Bx7-jo-xUg"/>
+                                                    <include reference="kSO-K9-WMf"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="x41-KS-BLw">
+                                        <rect key="frame" x="0.0" y="202" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x41-KS-BLw" id="mcX-fR-K1r">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haircut Reminders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffK-Of-yY9">
                                                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hcD-Es-7RS">
@@ -1223,10 +1230,10 @@ haircut and save money!</string>
                                                     <exclude reference="hcD-Es-7RS"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="c3g-yd-7PM"/>
-                                                    <exclude reference="qZt-er-8TT"/>
                                                     <exclude reference="aVc-sA-wQv"/>
                                                     <exclude reference="nRM-QB-4fF"/>
+                                                    <exclude reference="c3g-yd-7PM"/>
+                                                    <exclude reference="qZt-er-8TT"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -1235,23 +1242,25 @@ haircut and save money!</string>
                                                     <include reference="hcD-Es-7RS"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="c3g-yd-7PM"/>
-                                                    <include reference="qZt-er-8TT"/>
                                                     <include reference="aVc-sA-wQv"/>
                                                     <include reference="nRM-QB-4fF"/>
+                                                    <include reference="c3g-yd-7PM"/>
+                                                    <include reference="qZt-er-8TT"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eTP-CM-9K2">
+                                        <rect key="frame" x="0.0" y="246" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eTP-CM-9K2" id="nJK-ZX-gbx">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accept Walk-Ins" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhE-bS-akv">
                                                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Peb-un-YXs">
@@ -1270,10 +1279,10 @@ haircut and save money!</string>
                                                     <exclude reference="Peb-un-YXs"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="4b6-IK-BGL"/>
-                                                    <exclude reference="tTC-6O-hlF"/>
                                                     <exclude reference="Jcl-Z0-Q6I"/>
                                                     <exclude reference="Ow7-wx-hfT"/>
+                                                    <exclude reference="4b6-IK-BGL"/>
+                                                    <exclude reference="tTC-6O-hlF"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -1282,10 +1291,10 @@ haircut and save money!</string>
                                                     <include reference="Peb-un-YXs"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="4b6-IK-BGL"/>
-                                                    <include reference="tTC-6O-hlF"/>
                                                     <include reference="Jcl-Z0-Q6I"/>
                                                     <include reference="Ow7-wx-hfT"/>
+                                                    <include reference="4b6-IK-BGL"/>
+                                                    <include reference="tTC-6O-hlF"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -1295,14 +1304,17 @@ haircut and save money!</string>
                             <tableViewSection headerTitle="LIVECHAIR 1.0" id="okb-lb-fiB">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="uyk-rV-80T" style="IBUITableViewCellStyleDefault" id="egI-fA-ONE">
+                                        <rect key="frame" x="0.0" y="341" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="egI-fA-ONE" id="fv8-yd-Uh7">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uyk-rV-80T">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1312,14 +1324,17 @@ haircut and save money!</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Bqi-gr-6xC" style="IBUITableViewCellStyleDefault" id="eQB-HH-kNd">
+                                        <rect key="frame" x="0.0" y="385" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eQB-HH-kNd" id="9oJ-0l-qH2">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Terms of Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bqi-gr-6xC">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1329,14 +1344,17 @@ haircut and save money!</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Fcc-dy-XQI" style="IBUITableViewCellStyleDefault" id="i7h-K7-qnE">
+                                        <rect key="frame" x="0.0" y="429" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i7h-K7-qnE" id="nwD-o4-hA5">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Support" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fcc-dy-XQI">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1346,11 +1364,14 @@ haircut and save money!</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="7EL-hd-gSt" style="IBUITableViewCellStyleDefault" id="0RN-W2-bgB">
+                                        <rect key="frame" x="0.0" y="473" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0RN-W2-bgB" id="bYN-L1-5dc">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Delete Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7EL-hd-gSt">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1381,21 +1402,25 @@ haircut and save money!</string>
             <objects>
                 <tableViewController id="Vpp-DW-rUs" customClass="BarberAccountTableViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="7qD-oV-y9Q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="6xF-eg-I0v">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="wCD-wo-kaG" style="IBUITableViewCellStyleDefault" id="lai-CV-ZMy">
+                                        <rect key="frame" x="0.0" y="99" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lai-CV-ZMy" id="JFb-Ze-7E9">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wCD-wo-kaG">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1403,16 +1428,22 @@ haircut and save money!</string>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="2IW-M6-dOd" kind="show" id="JHT-20-q1l"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="WGY-dD-pZw" style="IBUITableViewCellStyleDefault" id="nRg-72-guJ">
+                                        <rect key="frame" x="0.0" y="143" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nRg-72-guJ" id="dtH-nh-VpJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Payment Methods" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WGY-dD-pZw">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1422,14 +1453,17 @@ haircut and save money!</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="j7M-Hb-CDa" style="IBUITableViewCellStyleDefault" id="1fK-nf-5Jf">
+                                        <rect key="frame" x="0.0" y="187" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1fK-nf-5Jf" id="cLH-eN-O7v">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Prices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j7M-Hb-CDa">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1439,14 +1473,17 @@ haircut and save money!</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ahb-vg-vBy" style="IBUITableViewCellStyleDefault" id="ovI-jq-wHF">
+                                        <rect key="frame" x="0.0" y="231" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ovI-jq-wHF" id="auN-gq-3rd">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Availability" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ahb-vg-vBy">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1460,11 +1497,14 @@ haircut and save money!</string>
                             <tableViewSection id="l2z-6h-28r">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="logOutCell" textLabel="tQL-rE-hAF" style="IBUITableViewCellStyleDefault" id="LU9-aC-FnC">
+                                        <rect key="frame" x="0.0" y="311" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LU9-aC-FnC" id="0ur-vf-fP6">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Logout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tQL-rE-hAF">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
@@ -1489,6 +1529,107 @@ haircut and save money!</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BKp-tZ-Dxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2613" y="2047.5"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="QgF-YG-7Kg">
+            <objects>
+                <viewController id="2IW-M6-dOd" customClass="BarberProfileViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BKk-OD-Lmx"/>
+                        <viewControllerLayoutGuide type="bottom" id="hfB-Ys-TPv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IcS-4u-MRQ">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qkz-hO-tJ1">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="aNp-uE-z34"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="aNp-uE-z34"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="aNp-uE-z34"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uk-E5-mbn">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0039215686269999999" green="0.1215686275" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="Ggm-x3-Jwg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="CHANGE YOUR PICTURE"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Ggm-x3-Jwg"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Ggm-x3-Jwg"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="changePictureBtn:" destination="2IW-M6-dOd" eventType="touchUpInside" id="Vl5-am-AuG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9uk-E5-mbn" firstAttribute="centerX" secondItem="Qkz-hO-tJ1" secondAttribute="centerX" id="Kgo-Ya-qBn"/>
+                            <constraint firstItem="Qkz-hO-tJ1" firstAttribute="leading" secondItem="IcS-4u-MRQ" secondAttribute="leadingMargin" constant="24" id="Pqc-lk-Dmp"/>
+                            <constraint firstItem="Qkz-hO-tJ1" firstAttribute="top" secondItem="BKk-OD-Lmx" secondAttribute="bottom" constant="48" id="Rps-Ww-vRN"/>
+                            <constraint firstItem="Qkz-hO-tJ1" firstAttribute="centerX" secondItem="IcS-4u-MRQ" secondAttribute="centerX" id="iiW-Eh-LgZ"/>
+                            <constraint firstItem="hfB-Ys-TPv" firstAttribute="top" secondItem="Qkz-hO-tJ1" secondAttribute="bottom" priority="100" constant="494" id="niG-Qb-myn"/>
+                            <constraint firstItem="9uk-E5-mbn" firstAttribute="leading" secondItem="IcS-4u-MRQ" secondAttribute="leadingMargin" constant="57" id="qOR-7V-0lH"/>
+                            <constraint firstItem="9uk-E5-mbn" firstAttribute="top" secondItem="Qkz-hO-tJ1" secondAttribute="bottom" constant="73" id="vHL-wi-jaX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Qkz-hO-tJ1"/>
+                                <exclude reference="9uk-E5-mbn"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Pqc-lk-Dmp"/>
+                                <exclude reference="Rps-Ww-vRN"/>
+                                <exclude reference="iiW-Eh-LgZ"/>
+                                <exclude reference="Kgo-Ya-qBn"/>
+                                <exclude reference="qOR-7V-0lH"/>
+                                <exclude reference="vHL-wi-jaX"/>
+                                <exclude reference="niG-Qb-myn"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Qkz-hO-tJ1"/>
+                                <include reference="9uk-E5-mbn"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Pqc-lk-Dmp"/>
+                                <include reference="Rps-Ww-vRN"/>
+                                <include reference="iiW-Eh-LgZ"/>
+                                <include reference="Kgo-Ya-qBn"/>
+                                <include reference="qOR-7V-0lH"/>
+                                <include reference="vHL-wi-jaX"/>
+                                <include reference="niG-Qb-myn"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="mS4-vg-k1A"/>
+                    <connections>
+                        <outlet property="profileImg" destination="Qkz-hO-tJ1" id="X4F-lW-9zl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rtz-EJ-hoZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3309" y="2047.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="D3c-rf-JNE">
@@ -1518,7 +1659,7 @@ haircut and save money!</string>
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="175" sectionHeaderHeight="18" sectionFooterHeight="18" id="LcD-3i-mtn">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="barberCell" rowHeight="175" id="Ofh-j1-AMs">
                                 <rect key="frame" x="0.0" y="114" width="600" height="175"/>
@@ -1527,6 +1668,9 @@ haircut and save money!</string>
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="174"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="9wN-vM-Tf2" kind="presentation" id="Zai-qZ-IiR"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -1553,20 +1697,24 @@ haircut and save money!</string>
             <objects>
                 <tableViewController id="Whi-ME-naE" customClass="ClientSettingsTableViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="eqv-ml-ms2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="PROFILE" id="n75-hO-uno">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="IrE-a2-XJm" style="IBUITableViewCellStyleDefault" id="EYd-aH-W2j">
+                                        <rect key="frame" x="0.0" y="114" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EYd-aH-W2j" id="RpJ-8V-YJd">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Edit Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IrE-a2-XJm">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1574,20 +1722,25 @@ haircut and save money!</string>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="uzT-H4-hkQ" kind="show" id="OiF-NK-bJA"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="NOTIFICATIONS" id="HX0-65-oCo">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="6lc-cQ-tOO">
+                                        <rect key="frame" x="0.0" y="209" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6lc-cQ-tOO" id="TbQ-Wz-eaF">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discount Alerts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZY-wk-B1i">
                                                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9MZ-Va-PRs">
@@ -1606,10 +1759,10 @@ haircut and save money!</string>
                                                     <exclude reference="9MZ-Va-PRs"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="2Yq-hH-f8G"/>
-                                                    <exclude reference="wIJ-23-PxR"/>
                                                     <exclude reference="fSd-GI-CcG"/>
                                                     <exclude reference="hKP-8B-BDY"/>
+                                                    <exclude reference="2Yq-hH-f8G"/>
+                                                    <exclude reference="wIJ-23-PxR"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -1618,23 +1771,25 @@ haircut and save money!</string>
                                                     <include reference="9MZ-Va-PRs"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="2Yq-hH-f8G"/>
-                                                    <include reference="wIJ-23-PxR"/>
                                                     <include reference="fSd-GI-CcG"/>
                                                     <include reference="hKP-8B-BDY"/>
+                                                    <include reference="2Yq-hH-f8G"/>
+                                                    <include reference="wIJ-23-PxR"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="VUQ-eq-TXT">
+                                        <rect key="frame" x="0.0" y="253" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VUQ-eq-TXT" id="IKG-QY-MFU">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIP Alerts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fi-bj-Fyr">
                                                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R2v-UN-6eW">
@@ -1653,10 +1808,10 @@ haircut and save money!</string>
                                                     <exclude reference="R2v-UN-6eW"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="pdl-yd-6Pg"/>
-                                                    <exclude reference="ypL-OM-uxw"/>
                                                     <exclude reference="vCI-1y-QT5"/>
                                                     <exclude reference="xfw-2F-YTQ"/>
+                                                    <exclude reference="pdl-yd-6Pg"/>
+                                                    <exclude reference="ypL-OM-uxw"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -1665,23 +1820,25 @@ haircut and save money!</string>
                                                     <include reference="R2v-UN-6eW"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="pdl-yd-6Pg"/>
-                                                    <include reference="ypL-OM-uxw"/>
                                                     <include reference="vCI-1y-QT5"/>
                                                     <include reference="xfw-2F-YTQ"/>
+                                                    <include reference="pdl-yd-6Pg"/>
+                                                    <include reference="ypL-OM-uxw"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="BiB-WS-SFz">
+                                        <rect key="frame" x="0.0" y="297" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BiB-WS-SFz" id="1gz-5k-kdJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haircut Reminders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gS5-aO-Osv">
                                                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8VH-RM-eaU">
@@ -1700,10 +1857,10 @@ haircut and save money!</string>
                                                     <exclude reference="8VH-RM-eaU"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="9Xz-3C-Qqb"/>
-                                                    <exclude reference="atN-Lk-izP"/>
                                                     <exclude reference="Bnl-jQ-yBy"/>
                                                     <exclude reference="X2Z-A3-l0v"/>
+                                                    <exclude reference="9Xz-3C-Qqb"/>
+                                                    <exclude reference="atN-Lk-izP"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -1712,10 +1869,10 @@ haircut and save money!</string>
                                                     <include reference="8VH-RM-eaU"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="9Xz-3C-Qqb"/>
-                                                    <include reference="atN-Lk-izP"/>
                                                     <include reference="Bnl-jQ-yBy"/>
                                                     <include reference="X2Z-A3-l0v"/>
+                                                    <include reference="9Xz-3C-Qqb"/>
+                                                    <include reference="atN-Lk-izP"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -1725,14 +1882,17 @@ haircut and save money!</string>
                             <tableViewSection headerTitle="LIVECHAIR 1.0" id="cXD-QN-pcj">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="6l0-He-Ze8" style="IBUITableViewCellStyleDefault" id="sbG-4x-7sm">
+                                        <rect key="frame" x="0.0" y="392" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sbG-4x-7sm" id="aBn-k6-ry6">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6l0-He-Ze8">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1742,14 +1902,17 @@ haircut and save money!</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="4Xr-hp-aZH" style="IBUITableViewCellStyleDefault" id="wCX-6g-Bz9">
+                                        <rect key="frame" x="0.0" y="436" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wCX-6g-Bz9" id="jkg-6K-Tcp">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Terms of Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Xr-hp-aZH">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1759,14 +1922,17 @@ haircut and save money!</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="99v-yZ-aVM" style="IBUITableViewCellStyleDefault" id="AaG-zY-Wtp">
+                                        <rect key="frame" x="0.0" y="480" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AaG-zY-Wtp" id="HxB-Lv-FFi">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Support" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="99v-yZ-aVM">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1776,11 +1942,14 @@ haircut and save money!</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9Ra-U6-kiC" style="IBUITableViewCellStyleDefault" id="Bfs-Xv-V3H">
+                                        <rect key="frame" x="0.0" y="524" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bfs-Xv-V3H" id="0su-aD-4PR">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Delete Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Ra-U6-kiC">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1797,11 +1966,14 @@ haircut and save money!</string>
                             <tableViewSection id="XfB-L9-ijE">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="vw1-py-52W" style="IBUITableViewCellStyleDefault" id="LN2-P3-O2p">
+                                        <rect key="frame" x="0.0" y="604" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LN2-P3-O2p" id="4Jp-Tv-IOe">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Logout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vw1-py-52W">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
@@ -1826,6 +1998,160 @@ haircut and save money!</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lmy-Lc-kny" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2613" y="2725.5"/>
+        </scene>
+        <!--The Barber View Controller-->
+        <scene sceneID="g2Q-oI-sQB">
+            <objects>
+                <viewController id="9wN-vM-Tf2" customClass="TheBarberViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DRm-gY-Rry"/>
+                        <viewControllerLayoutGuide type="bottom" id="XgD-85-6yW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gJg-Rh-hf7">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kwe-DE-gkZ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kwe-DE-gkZ" firstAttribute="top" secondItem="gJg-Rh-hf7" secondAttribute="top" id="0E0-bN-IFP"/>
+                            <constraint firstItem="Kwe-DE-gkZ" firstAttribute="bottom" secondItem="XgD-85-6yW" secondAttribute="top" id="A83-kw-Yrv"/>
+                            <constraint firstAttribute="trailing" secondItem="Kwe-DE-gkZ" secondAttribute="trailing" id="O5y-AQ-Y6l"/>
+                            <constraint firstItem="Kwe-DE-gkZ" firstAttribute="leading" secondItem="gJg-Rh-hf7" secondAttribute="leading" id="VT7-im-r5w"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Kwe-DE-gkZ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="0E0-bN-IFP"/>
+                                <exclude reference="A83-kw-Yrv"/>
+                                <exclude reference="O5y-AQ-Y6l"/>
+                                <exclude reference="VT7-im-r5w"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Kwe-DE-gkZ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="0E0-bN-IFP"/>
+                                <include reference="A83-kw-Yrv"/>
+                                <include reference="O5y-AQ-Y6l"/>
+                                <include reference="VT7-im-r5w"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bgImg" destination="Kwe-DE-gkZ" id="9Bu-A4-Qri"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e78-9m-Vh0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2613" y="3460.5"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="weq-9H-UbR">
+            <objects>
+                <viewController id="uzT-H4-hkQ" customClass="ClientProfileViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tWp-fm-1Bp"/>
+                        <viewControllerLayoutGuide type="bottom" id="eUM-0T-Lby"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iA2-02-Zis">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="asi-nk-k8n">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="klE-11-fK3"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="klE-11-fK3"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="klE-11-fK3"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4E-iO-P0I">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.20784313730000001" green="0.48627450979999998" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="D6a-LD-MGn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="CHANGE YOUR PICTURE"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="D6a-LD-MGn"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="D6a-LD-MGn"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="changePictureBtn:" destination="uzT-H4-hkQ" eventType="touchUpInside" id="V8J-3l-HPJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x4E-iO-P0I" firstAttribute="top" secondItem="asi-nk-k8n" secondAttribute="bottom" constant="73" id="0yX-OJ-f9W"/>
+                            <constraint firstItem="asi-nk-k8n" firstAttribute="top" secondItem="tWp-fm-1Bp" secondAttribute="bottom" constant="48" id="9Kc-hL-g2T"/>
+                            <constraint firstItem="x4E-iO-P0I" firstAttribute="leading" secondItem="iA2-02-Zis" secondAttribute="leadingMargin" constant="57" id="FeG-Vn-SQW"/>
+                            <constraint firstItem="x4E-iO-P0I" firstAttribute="centerX" secondItem="asi-nk-k8n" secondAttribute="centerX" id="S69-Xp-8OQ"/>
+                            <constraint firstItem="asi-nk-k8n" firstAttribute="leading" secondItem="iA2-02-Zis" secondAttribute="leadingMargin" constant="24" id="maW-9o-Zar"/>
+                            <constraint firstItem="asi-nk-k8n" firstAttribute="centerX" secondItem="iA2-02-Zis" secondAttribute="centerX" id="mj2-8s-web"/>
+                            <constraint firstItem="eUM-0T-Lby" firstAttribute="top" secondItem="asi-nk-k8n" secondAttribute="bottom" priority="100" constant="494" id="nmg-8t-R3P"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="asi-nk-k8n"/>
+                                <exclude reference="x4E-iO-P0I"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="9Kc-hL-g2T"/>
+                                <exclude reference="maW-9o-Zar"/>
+                                <exclude reference="mj2-8s-web"/>
+                                <exclude reference="0yX-OJ-f9W"/>
+                                <exclude reference="FeG-Vn-SQW"/>
+                                <exclude reference="S69-Xp-8OQ"/>
+                                <exclude reference="nmg-8t-R3P"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="asi-nk-k8n"/>
+                                <include reference="x4E-iO-P0I"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="9Kc-hL-g2T"/>
+                                <include reference="maW-9o-Zar"/>
+                                <include reference="mj2-8s-web"/>
+                                <include reference="0yX-OJ-f9W"/>
+                                <include reference="FeG-Vn-SQW"/>
+                                <include reference="S69-Xp-8OQ"/>
+                                <include reference="nmg-8t-R3P"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="bsp-UO-Zgk"/>
+                    <connections>
+                        <outlet property="profileImg" destination="asi-nk-k8n" id="I5m-MC-kmr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m99-L8-9ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3318" y="2725.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="apm-ud-P7N">

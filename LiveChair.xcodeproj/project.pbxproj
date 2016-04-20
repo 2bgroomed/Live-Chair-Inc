@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		E81FE7D01CB819EA00DFEB55 /* BarberAccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FE7CF1CB819EA00DFEB55 /* BarberAccountTableViewController.swift */; };
 		E81FE7D21CB888B400DFEB55 /* ClientSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FE7D11CB888B400DFEB55 /* ClientSettingsTableViewController.swift */; };
+		E82EA5DF1CC832F50041E115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82EA5DD1CC832F50041E115 /* Main.storyboard */; };
+		E82EA5E11CC838AC0041E115 /* BarberProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EA5E01CC838AC0041E115 /* BarberProfileViewController.swift */; };
+		E82EA5E31CC844070041E115 /* ClientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EA5E21CC844070041E115 /* ClientProfileViewController.swift */; };
+		E82EA5E51CC84D1E0041E115 /* TheBarberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EA5E41CC84D1E0041E115 /* TheBarberViewController.swift */; };
 		E86B6FFD1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B6FFC1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift */; };
 		E86B6FFF1C9D94520087BFF3 /* BarberHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B6FFE1C9D94520087BFF3 /* BarberHomeViewController.swift */; };
 		E86B70011C9DA25A0087BFF3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B70001C9DA25A0087BFF3 /* SignInViewController.swift */; };
 		E89E1EE81CAAE62600F86373 /* ClientHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89E1EE71CAAE62600F86373 /* ClientHomeTableViewController.swift */; };
 		E8C9ED581C97872A00A044E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9ED571C97872A00A044E2 /* AppDelegate.swift */; };
 		E8C9ED5A1C97872A00A044E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9ED591C97872A00A044E2 /* ViewController.swift */; };
-		E8C9ED5D1C97872A00A044E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C9ED5B1C97872A00A044E2 /* Main.storyboard */; };
 		E8C9ED601C97872A00A044E2 /* LiveChair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8C9ED5E1C97872A00A044E2 /* LiveChair.xcdatamodeld */; };
 		E8C9ED621C97872A00A044E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C9ED611C97872A00A044E2 /* Assets.xcassets */; };
 		E8C9ED651C97872B00A044E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C9ED631C97872B00A044E2 /* LaunchScreen.storyboard */; };
@@ -44,6 +47,10 @@
 /* Begin PBXFileReference section */
 		E81FE7CF1CB819EA00DFEB55 /* BarberAccountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberAccountTableViewController.swift; sourceTree = "<group>"; };
 		E81FE7D11CB888B400DFEB55 /* ClientSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientSettingsTableViewController.swift; sourceTree = "<group>"; };
+		E82EA5DE1CC832F50041E115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E82EA5E01CC838AC0041E115 /* BarberProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberProfileViewController.swift; sourceTree = "<group>"; };
+		E82EA5E21CC844070041E115 /* ClientProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientProfileViewController.swift; sourceTree = "<group>"; };
+		E82EA5E41CC84D1E0041E115 /* TheBarberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBarberViewController.swift; sourceTree = "<group>"; };
 		E86B6FFC1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberSignUpViewController.swift; sourceTree = "<group>"; };
 		E86B6FFE1C9D94520087BFF3 /* BarberHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberHomeViewController.swift; sourceTree = "<group>"; };
 		E86B70001C9DA25A0087BFF3 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +58,6 @@
 		E8C9ED541C97872A00A044E2 /* LiveChair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveChair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C9ED571C97872A00A044E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8C9ED591C97872A00A044E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E8C9ED5C1C97872A00A044E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8C9ED5F1C97872A00A044E2 /* LiveChair.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiveChair.xcdatamodel; sourceTree = "<group>"; };
 		E8C9ED611C97872A00A044E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8C9ED641C97872B00A044E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,11 +119,11 @@
 		E8C9ED561C97872A00A044E2 /* LiveChair */ = {
 			isa = PBXGroup;
 			children = (
+				E82EA5DD1CC832F50041E115 /* Main.storyboard */,
 				E8C9ED571C97872A00A044E2 /* AppDelegate.swift */,
 				E8D1B3291CA31C1600AD08C9 /* ClientSignUpViewController.swift */,
 				E8C9ED591C97872A00A044E2 /* ViewController.swift */,
 				E86B6FFC1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift */,
-				E8C9ED5B1C97872A00A044E2 /* Main.storyboard */,
 				E8C9ED611C97872A00A044E2 /* Assets.xcassets */,
 				E8C9ED631C97872B00A044E2 /* LaunchScreen.storyboard */,
 				E8C9ED661C97872B00A044E2 /* Info.plist */,
@@ -127,6 +133,9 @@
 				E89E1EE71CAAE62600F86373 /* ClientHomeTableViewController.swift */,
 				E81FE7CF1CB819EA00DFEB55 /* BarberAccountTableViewController.swift */,
 				E81FE7D11CB888B400DFEB55 /* ClientSettingsTableViewController.swift */,
+				E82EA5E01CC838AC0041E115 /* BarberProfileViewController.swift */,
+				E82EA5E21CC844070041E115 /* ClientProfileViewController.swift */,
+				E82EA5E41CC84D1E0041E115 /* TheBarberViewController.swift */,
 			);
 			path = LiveChair;
 			sourceTree = "<group>";
@@ -253,9 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82EA5DF1CC832F50041E115 /* Main.storyboard in Resources */,
 				E8C9ED651C97872B00A044E2 /* LaunchScreen.storyboard in Resources */,
 				E8C9ED621C97872A00A044E2 /* Assets.xcassets in Resources */,
-				E8C9ED5D1C97872A00A044E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +294,10 @@
 				E86B70011C9DA25A0087BFF3 /* SignInViewController.swift in Sources */,
 				E81FE7D21CB888B400DFEB55 /* ClientSettingsTableViewController.swift in Sources */,
 				E8D1B32A1CA31C1600AD08C9 /* ClientSignUpViewController.swift in Sources */,
+				E82EA5E31CC844070041E115 /* ClientProfileViewController.swift in Sources */,
 				E8C9ED5A1C97872A00A044E2 /* ViewController.swift in Sources */,
+				E82EA5E11CC838AC0041E115 /* BarberProfileViewController.swift in Sources */,
+				E82EA5E51CC84D1E0041E115 /* TheBarberViewController.swift in Sources */,
 				E81FE7D01CB819EA00DFEB55 /* BarberAccountTableViewController.swift in Sources */,
 				E89E1EE81CAAE62600F86373 /* ClientHomeTableViewController.swift in Sources */,
 				E8C9ED601C97872A00A044E2 /* LiveChair.xcdatamodeld in Sources */,
@@ -325,10 +337,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E8C9ED5B1C97872A00A044E2 /* Main.storyboard */ = {
+		E82EA5DD1CC832F50041E115 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E8C9ED5C1C97872A00A044E2 /* Base */,
+				E82EA5DE1CC832F50041E115 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
