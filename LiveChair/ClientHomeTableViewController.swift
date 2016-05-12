@@ -8,6 +8,8 @@
 
 import UIKit
 
+var selectedBarber:AnyObject = []
+
 extension ClientHomeTableViewController: UISearchResultsUpdating {
     func updateSearchResultsForSearchController(searchController: UISearchController) {
         filterContentForSearchText(searchController.searchBar.text!)
@@ -57,7 +59,12 @@ class ClientHomeTableViewController: UITableViewController {
     
     func getBarbers(searchText:String)
     {
-        let url = NSURL(string: "http://localhost/livechairapp/out/barber?s=\(searchText)")! // http://localhost/livechairapp/out/barber // http://www.kaleidosblog.com/tutorial/tutorial.json
+        self.barbers.removeAll()
+        self.tableView.reloadData()
+        
+        let searchString = searchText.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())! as String
+        
+        let url = NSURL(string: "http://localhost/livechairapp/out/barber?s=\(searchString)")!
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "GET"
         let session = NSURLSession.sharedSession()
@@ -182,6 +189,7 @@ class ClientHomeTableViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let row = self.tableView.indexPathForSelectedRow!.row
         print("row \(row) was selected")
+        selectedBarber = barbers[row]
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
