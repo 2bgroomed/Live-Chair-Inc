@@ -64,7 +64,7 @@ class ClientHomeTableViewController: UITableViewController {
         
         let searchString = searchText.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())! as String
         
-        let url = NSURL(string: "http://localhost/livechairapp/out/barber?s=\(searchString)")!
+        let url = NSURL(string: "http://www.livechairapp.com.php56-33.ord1-1.websitetestlink.com/barber?s=\(searchString)")!
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "GET"
         let session = NSURLSession.sharedSession()
@@ -118,7 +118,7 @@ class ClientHomeTableViewController: UITableViewController {
         let pic = UIImageView(frame: CGRectMake(0, 0, cell.frame.width, cell.frame.height))
         pic.contentMode = .ScaleAspectFill
         let id = barbers[indexPath.row]["id"] as! String
-        let url = NSURL(string: "http://localhost/livechairapp/out/public/img/barbers/\(id).jpg")
+        let url = NSURL(string: "http://www.livechairapp.com.php56-33.ord1-1.websitetestlink.com/public/img/barbers/\(id).jpg")
         
         print (id)
         
@@ -187,11 +187,13 @@ class ClientHomeTableViewController: UITableViewController {
     */
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let row = self.tableView.indexPathForSelectedRow!.row
-        print("row \(row) was selected")
-        selectedBarber = barbers[row]
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        if segue.identifier != "UserProfile" {
+            let row = self.tableView.indexPathForSelectedRow!.row
+            print("row \(row) was selected")
+            selectedBarber = barbers[row]
+        }
+        
     }
 
 }

@@ -47,8 +47,7 @@ class ClientProfileViewController: UIViewController, UIImagePickerControllerDele
     func myImageUploadRequest()
     {
         
-        //let myUrl = NSURL(string: "http://www.swiftdeveloperblog.com/http-post-example-script/");
-        let myUrl = NSURL(string: "http://localhost/livechairapp/out/client");
+        let myUrl = NSURL(string: "http://www.livechairapp.com.php56-33.ord1-1.websitetestlink.com/out/client");
         
         let request = NSMutableURLRequest(URL:myUrl!);
         request.HTTPMethod = "POST";

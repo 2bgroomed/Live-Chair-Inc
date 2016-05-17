@@ -18,7 +18,7 @@ class SignInViewController: UIViewController {
         let email = self.emailTxt.text! as String
         let password = self.passwordTxt.text! as String
         
-        let url = NSURL(string: "http://localhost/livechairapp/out/signin")!
+        let url = NSURL(string: "http://www.livechairapp.com.php56-33.ord1-1.websitetestlink.com/signin")!
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "POST"
         request.HTTPBody = "email=\(email)&password=\(password)".dataUsingEncoding(NSUTF8StringEncoding)

@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import MapKit
 
 class TheBarberViewController: UIViewController, UIActionSheetDelegate {
 
     @IBOutlet var bgImg: UIImageView!
     @IBOutlet var barberLbl: UILabel!
+    @IBOutlet var bookView: UIView!
+    @IBOutlet var mapView: UIView!
+    
     
     @IBAction func backBtn(sender: UIButton) {
         dismissViewControllerAnimated(true, completion: nil)
@@ -25,11 +29,33 @@ class TheBarberViewController: UIViewController, UIActionSheetDelegate {
         self.presentViewController(activityViewController, animated: true, completion: {
         })
     }
+    
+    
+    @IBAction func bookBtn(sender: UIButton) {
+        bookView.hidden = false
+    }
+    
+    @IBAction func cancelBtn(sender: UIButton) {
+        bookView.hidden = true
+    }
+    
+    @IBAction func bookThisTimeBtn(sender: UIButton) {
+        bookView.hidden = true
+    }
+    
+    @IBAction func mapBtn(sender: UIButton) {
+        mapView.hidden = false
+    }
+    
+    @IBAction func cancelMapBtn(sender: UIButton) {
+        mapView.hidden = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let id = selectedBarber["id"] as! String
-        let url = NSURL(string: "http://localhost/livechairapp/out/public/img/barbers/\(id).jpg")
+        let url = NSURL(string: "http://www.livechairapp.com.php56-33.ord1-1.websitetestlink.com/public/img/barbers/\(id).jpg")
         
         
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {

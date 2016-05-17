@@ -13,6 +13,7 @@
 		E82EA5E11CC838AC0041E115 /* BarberProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EA5E01CC838AC0041E115 /* BarberProfileViewController.swift */; };
 		E82EA5E31CC844070041E115 /* ClientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EA5E21CC844070041E115 /* ClientProfileViewController.swift */; };
 		E82EA5E51CC84D1E0041E115 /* TheBarberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EA5E41CC84D1E0041E115 /* TheBarberViewController.swift */; };
+		E85AFE461CEAAB360010DC01 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85AFE451CEAAB360010DC01 /* MapKit.framework */; };
 		E86B6FFD1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B6FFC1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift */; };
 		E86B6FFF1C9D94520087BFF3 /* BarberHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B6FFE1C9D94520087BFF3 /* BarberHomeViewController.swift */; };
 		E86B70011C9DA25A0087BFF3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B70001C9DA25A0087BFF3 /* SignInViewController.swift */; };
@@ -51,6 +52,7 @@
 		E82EA5E01CC838AC0041E115 /* BarberProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberProfileViewController.swift; sourceTree = "<group>"; };
 		E82EA5E21CC844070041E115 /* ClientProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientProfileViewController.swift; sourceTree = "<group>"; };
 		E82EA5E41CC84D1E0041E115 /* TheBarberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBarberViewController.swift; sourceTree = "<group>"; };
+		E85AFE451CEAAB360010DC01 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E86B6FFC1C9D8B4A0087BFF3 /* BarberSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberSignUpViewController.swift; sourceTree = "<group>"; };
 		E86B6FFE1C9D94520087BFF3 /* BarberHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberHomeViewController.swift; sourceTree = "<group>"; };
 		E86B70001C9DA25A0087BFF3 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85AFE461CEAAB360010DC01 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +102,7 @@
 		E8C9ED4B1C97872A00A044E2 = {
 			isa = PBXGroup;
 			children = (
+				E85AFE451CEAAB360010DC01 /* MapKit.framework */,
 				E8C9ED561C97872A00A044E2 /* LiveChair */,
 				E8C9ED6E1C97872B00A044E2 /* LiveChairTests */,
 				E8C9ED791C97872B00A044E2 /* LiveChairUITests */,
@@ -226,6 +230,7 @@
 				TargetAttributes = {
 					E8C9ED531C97872A00A044E2 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2BZDDB6NA2;
 					};
 					E8C9ED6A1C97872B00A044E2 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -441,10 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LiveChair/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.livechairapp.LiveChair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -452,10 +460,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LiveChair/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.livechairapp.LiveChair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
