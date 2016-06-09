@@ -1,0 +1,6 @@
+framework module Pods_LiveChair {
+  umbrella header "Pods-LiveChair-umbrella.h"
+
+  export *
+  module * { export * }
+}
