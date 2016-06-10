@@ -15,6 +15,7 @@ class TheBarberViewController: UIViewController, UIActionSheetDelegate {
     @IBOutlet var barberLbl: UILabel!
     @IBOutlet var bookView: UIView!
     @IBOutlet var mapView: UIView!
+    @IBOutlet var pricesView: UIScrollView!
     
     
     @IBAction func backBtn(sender: UIButton) {
@@ -41,6 +42,9 @@ class TheBarberViewController: UIViewController, UIActionSheetDelegate {
     
     @IBAction func bookThisTimeBtn(sender: UIButton) {
         bookView.hidden = true
+        let alert = UIAlertController(title: "Booking", message: "You have successfully booked this barber!", preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        self.presentViewController(alert, animated: true, completion: nil)
     }
     
     @IBAction func mapBtn(sender: UIButton) {
@@ -49,6 +53,14 @@ class TheBarberViewController: UIViewController, UIActionSheetDelegate {
     
     @IBAction func cancelMapBtn(sender: UIButton) {
         mapView.hidden = true
+    }
+    
+    @IBAction func cancelPricesBtn(sender: UIButton) {
+        pricesView.hidden = true
+    }
+    
+    @IBAction func pricesBtn(sender: UIButton) {
+        pricesView.hidden = false
     }
     
     override func viewDidLoad() {

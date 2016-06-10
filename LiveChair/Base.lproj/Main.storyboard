@@ -1538,12 +1538,15 @@ haircut and save money!</string>
             <objects>
                 <tableViewController id="3q1-Cx-R33" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="jaF-xe-M9i">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="fss-RH-oD1">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fss-RH-oD1" id="6XW-8x-diR">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -1554,12 +1557,185 @@ haircut and save money!</string>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Prices" id="MCv-pR-PQA">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ysG-FH-c75"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ysG-FH-c75">
+                            <connections>
+                                <segue destination="Xce-lC-mSV" kind="presentation" identifier="priceSegue" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="KPm-fQ-0k9"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j2H-1X-szQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3309" y="1394.25"/>
+        </scene>
+        <!--Add Price-->
+        <scene sceneID="OFU-H4-Rua">
+            <objects>
+                <viewController id="Xce-lC-mSV" customClass="PriceViewController" customModule="LiveChair" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="faU-Xw-ZSd"/>
+                        <viewControllerLayoutGuide type="bottom" id="IZE-9Q-15m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IYi-ra-POX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="input" translatesAutoresizingMaskIntoConstraints="NO" id="Npj-QT-UJV">
+                                <rect key="frame" x="20" y="97" width="240" height="128"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Cut name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gd9-Aq-CYf">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="input" translatesAutoresizingMaskIntoConstraints="NO" id="7T2-aO-arS">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hWL-tM-zaJ">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="input" translatesAutoresizingMaskIntoConstraints="NO" id="yLt-i1-IwH">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Discounted price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VAG-cH-LZC">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74V-LJ-V4y">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.31764705879999999" green="0.61176470589999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="FRs-gt-PY6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="SAVE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FRs-gt-PY6"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="FRs-gt-PY6"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="saveBtn:" destination="Xce-lC-mSV" eventType="touchUpInside" id="OIJ-FL-CWJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7T2-aO-arS" firstAttribute="top" secondItem="gd9-Aq-CYf" secondAttribute="bottom" constant="31" id="16U-B6-OtX"/>
+                            <constraint firstItem="gd9-Aq-CYf" firstAttribute="centerY" secondItem="Npj-QT-UJV" secondAttribute="centerY" id="476-fp-2jq"/>
+                            <constraint firstItem="Npj-QT-UJV" firstAttribute="centerX" secondItem="IYi-ra-POX" secondAttribute="centerX" id="5NU-yq-6WZ"/>
+                            <constraint firstItem="hWL-tM-zaJ" firstAttribute="centerY" secondItem="7T2-aO-arS" secondAttribute="centerY" id="7ag-za-O3P"/>
+                            <constraint firstItem="hWL-tM-zaJ" firstAttribute="trailing" secondItem="gd9-Aq-CYf" secondAttribute="trailing" id="Ca3-zQ-COV"/>
+                            <constraint firstItem="VAG-cH-LZC" firstAttribute="top" secondItem="7T2-aO-arS" secondAttribute="bottom" constant="31" id="DP4-2k-fZf"/>
+                            <constraint firstItem="74V-LJ-V4y" firstAttribute="leading" secondItem="yLt-i1-IwH" secondAttribute="leading" id="KhU-TA-rwB"/>
+                            <constraint firstItem="IZE-9Q-15m" firstAttribute="top" secondItem="74V-LJ-V4y" secondAttribute="bottom" priority="100" constant="431" id="Ls9-cx-xjb"/>
+                            <constraint firstItem="hWL-tM-zaJ" firstAttribute="top" secondItem="Npj-QT-UJV" secondAttribute="bottom" constant="31" id="MnW-DR-jUl"/>
+                            <constraint firstItem="gd9-Aq-CYf" firstAttribute="leading" secondItem="IYi-ra-POX" secondAttribute="leadingMargin" constant="41" id="QqD-Yp-8Cs"/>
+                            <constraint firstItem="VAG-cH-LZC" firstAttribute="centerY" secondItem="yLt-i1-IwH" secondAttribute="centerY" id="Sg7-Xe-Qdh"/>
+                            <constraint firstItem="74V-LJ-V4y" firstAttribute="top" secondItem="yLt-i1-IwH" secondAttribute="bottom" constant="31" id="UGA-k7-Q0w"/>
+                            <constraint firstItem="VAG-cH-LZC" firstAttribute="leading" secondItem="hWL-tM-zaJ" secondAttribute="leading" id="Vty-cT-A6N"/>
+                            <constraint firstItem="yLt-i1-IwH" firstAttribute="leading" secondItem="Npj-QT-UJV" secondAttribute="leading" id="Xkw-el-W3H"/>
+                            <constraint firstItem="gd9-Aq-CYf" firstAttribute="centerX" secondItem="7T2-aO-arS" secondAttribute="centerX" id="YiA-dg-QXJ"/>
+                            <constraint firstItem="74V-LJ-V4y" firstAttribute="trailing" secondItem="yLt-i1-IwH" secondAttribute="trailing" id="aeW-nD-8cK"/>
+                            <constraint firstItem="hWL-tM-zaJ" firstAttribute="leading" secondItem="gd9-Aq-CYf" secondAttribute="leading" id="aqo-di-Ldx"/>
+                            <constraint firstItem="Npj-QT-UJV" firstAttribute="top" secondItem="faU-Xw-ZSd" secondAttribute="bottom" constant="42" id="cq6-yK-7M1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gd9-Aq-CYf" secondAttribute="trailing" constant="43" id="gHr-Ug-buX"/>
+                            <constraint firstItem="7T2-aO-arS" firstAttribute="top" secondItem="Npj-QT-UJV" secondAttribute="bottom" constant="23" id="oFb-4Y-OMU"/>
+                            <constraint firstItem="yLt-i1-IwH" firstAttribute="top" secondItem="7T2-aO-arS" secondAttribute="bottom" constant="23" id="w35-wQ-cRn"/>
+                            <constraint firstItem="VAG-cH-LZC" firstAttribute="trailing" secondItem="hWL-tM-zaJ" secondAttribute="trailing" id="ynY-3d-0VG"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="gd9-Aq-CYf"/>
+                                <exclude reference="7T2-aO-arS"/>
+                                <exclude reference="hWL-tM-zaJ"/>
+                                <exclude reference="yLt-i1-IwH"/>
+                                <exclude reference="VAG-cH-LZC"/>
+                                <exclude reference="74V-LJ-V4y"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="5NU-yq-6WZ"/>
+                                <exclude reference="cq6-yK-7M1"/>
+                                <exclude reference="476-fp-2jq"/>
+                                <exclude reference="QqD-Yp-8Cs"/>
+                                <exclude reference="YiA-dg-QXJ"/>
+                                <exclude reference="gHr-Ug-buX"/>
+                                <exclude reference="16U-B6-OtX"/>
+                                <exclude reference="oFb-4Y-OMU"/>
+                                <exclude reference="7ag-za-O3P"/>
+                                <exclude reference="Ca3-zQ-COV"/>
+                                <exclude reference="MnW-DR-jUl"/>
+                                <exclude reference="aqo-di-Ldx"/>
+                                <exclude reference="Xkw-el-W3H"/>
+                                <exclude reference="w35-wQ-cRn"/>
+                                <exclude reference="DP4-2k-fZf"/>
+                                <exclude reference="Sg7-Xe-Qdh"/>
+                                <exclude reference="Vty-cT-A6N"/>
+                                <exclude reference="ynY-3d-0VG"/>
+                                <exclude reference="KhU-TA-rwB"/>
+                                <exclude reference="UGA-k7-Q0w"/>
+                                <exclude reference="aeW-nD-8cK"/>
+                                <exclude reference="Ls9-cx-xjb"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="gd9-Aq-CYf"/>
+                                <include reference="7T2-aO-arS"/>
+                                <include reference="hWL-tM-zaJ"/>
+                                <include reference="yLt-i1-IwH"/>
+                                <include reference="VAG-cH-LZC"/>
+                                <include reference="74V-LJ-V4y"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="5NU-yq-6WZ"/>
+                                <include reference="cq6-yK-7M1"/>
+                                <include reference="476-fp-2jq"/>
+                                <include reference="QqD-Yp-8Cs"/>
+                                <include reference="YiA-dg-QXJ"/>
+                                <include reference="gHr-Ug-buX"/>
+                                <include reference="16U-B6-OtX"/>
+                                <include reference="oFb-4Y-OMU"/>
+                                <include reference="7ag-za-O3P"/>
+                                <include reference="Ca3-zQ-COV"/>
+                                <include reference="MnW-DR-jUl"/>
+                                <include reference="aqo-di-Ldx"/>
+                                <include reference="Xkw-el-W3H"/>
+                                <include reference="w35-wQ-cRn"/>
+                                <include reference="DP4-2k-fZf"/>
+                                <include reference="Sg7-Xe-Qdh"/>
+                                <include reference="Vty-cT-A6N"/>
+                                <include reference="ynY-3d-0VG"/>
+                                <include reference="KhU-TA-rwB"/>
+                                <include reference="UGA-k7-Q0w"/>
+                                <include reference="aeW-nD-8cK"/>
+                                <include reference="Ls9-cx-xjb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Price" id="dYV-77-LaR"/>
+                    <connections>
+                        <outlet property="cutTxt" destination="gd9-Aq-CYf" id="uvo-It-G32"/>
+                        <outlet property="discountedPriceTxt" destination="VAG-cH-LZC" id="dIg-j9-eoc"/>
+                        <outlet property="priceTxt" destination="hWL-tM-zaJ" id="5tF-y4-nHT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IpY-Lj-a0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4018.5" y="1393.5"/>
         </scene>
         <!--Profile-->
         <scene sceneID="QgF-YG-7Kg">
@@ -2175,6 +2351,9 @@ haircut and save money!</string>
                                                 <include reference="ZXo-eZ-NOi"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="pricesBtn:" destination="9wN-vM-Tf2" eventType="touchUpInside" id="aco-Md-MG0"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
@@ -2295,11 +2474,11 @@ haircut and save money!</string>
                                         <exclude reference="Ppo-Ui-3GR"/>
                                         <exclude reference="P3a-hW-rCG"/>
                                         <exclude reference="X4u-BV-mHt"/>
+                                        <exclude reference="EwU-ID-AiZ"/>
                                         <exclude reference="HlM-KL-DQK"/>
                                         <exclude reference="Mya-cy-Y3U"/>
                                         <exclude reference="eQd-OE-KXc"/>
                                         <exclude reference="jYh-GL-3n9"/>
-                                        <exclude reference="EwU-ID-AiZ"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -2312,11 +2491,11 @@ haircut and save money!</string>
                                         <include reference="Ppo-Ui-3GR"/>
                                         <include reference="P3a-hW-rCG"/>
                                         <include reference="X4u-BV-mHt"/>
+                                        <include reference="EwU-ID-AiZ"/>
                                         <include reference="HlM-KL-DQK"/>
                                         <include reference="Mya-cy-Y3U"/>
                                         <include reference="eQd-OE-KXc"/>
                                         <include reference="jYh-GL-3n9"/>
-                                        <include reference="EwU-ID-AiZ"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -2387,6 +2566,47 @@ haircut and save money!</string>
                                     </mask>
                                 </variation>
                             </view>
+                            <scrollView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ih-W4-VqH">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mlf-WS-efy">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" title="Cancel"/>
+                                        <connections>
+                                            <action selector="cancelPricesBtn:" destination="9wN-vM-Tf2" eventType="touchUpInside" id="15u-kX-Sew"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Mlf-WS-efy" secondAttribute="trailing" constant="328" id="GRx-bK-YG8"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mlf-WS-efy" secondAttribute="bottom" constant="245" id="Gf7-3s-bs6"/>
+                                    <constraint firstItem="Mlf-WS-efy" firstAttribute="top" secondItem="3ih-W4-VqH" secondAttribute="top" constant="32" id="f9s-MV-CfI"/>
+                                    <constraint firstItem="Mlf-WS-efy" firstAttribute="leading" secondItem="3ih-W4-VqH" secondAttribute="leading" constant="24" id="iZz-jX-BEH"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="Mlf-WS-efy"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="GRx-bK-YG8"/>
+                                        <exclude reference="Gf7-3s-bs6"/>
+                                        <exclude reference="f9s-MV-CfI"/>
+                                        <exclude reference="iZz-jX-BEH"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="Mlf-WS-efy"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="GRx-bK-YG8"/>
+                                        <include reference="Gf7-3s-bs6"/>
+                                        <include reference="f9s-MV-CfI"/>
+                                        <include reference="iZz-jX-BEH"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -2395,6 +2615,7 @@ haircut and save money!</string>
                             <constraint firstItem="xHc-Vi-vlB" firstAttribute="trailing" secondItem="stD-Et-vb9" secondAttribute="trailing" id="Abh-vJ-Bx5"/>
                             <constraint firstItem="XgD-85-6yW" firstAttribute="top" secondItem="stD-Et-vb9" secondAttribute="bottom" id="DM2-Kt-1z6"/>
                             <constraint firstItem="Kwe-DE-gkZ" firstAttribute="leading" secondItem="stD-Et-vb9" secondAttribute="leading" id="DOL-jh-KZP"/>
+                            <constraint firstItem="3ih-W4-VqH" firstAttribute="bottom" secondItem="XgD-85-6yW" secondAttribute="top" id="EKP-wA-Uh0"/>
                             <constraint firstItem="Kwe-DE-gkZ" firstAttribute="top" secondItem="gJg-Rh-hf7" secondAttribute="top" id="HJV-Ge-Yyb"/>
                             <constraint firstItem="xHc-Vi-vlB" firstAttribute="bottom" secondItem="XgD-85-6yW" secondAttribute="top" id="Icu-6j-rW2"/>
                             <constraint firstItem="1Iu-uN-cX3" firstAttribute="top" secondItem="DRm-gY-Rry" secondAttribute="bottom" constant="2" id="NXL-CS-zfP"/>
@@ -2402,7 +2623,9 @@ haircut and save money!</string>
                             <constraint firstItem="stD-Et-vb9" firstAttribute="leading" secondItem="gJg-Rh-hf7" secondAttribute="leadingMargin" constant="-20" id="Q1a-tK-011"/>
                             <constraint firstAttribute="trailingMargin" secondItem="stD-Et-vb9" secondAttribute="trailing" constant="-20" id="R1m-hn-Yf1"/>
                             <constraint firstAttribute="trailing" secondItem="Kwe-DE-gkZ" secondAttribute="trailing" id="RBQ-xz-UAY"/>
+                            <constraint firstItem="3ih-W4-VqH" firstAttribute="top" secondItem="xHc-Vi-vlB" secondAttribute="top" id="TRh-6W-m7Q"/>
                             <constraint firstItem="Ji5-h2-iMZ" firstAttribute="trailing" secondItem="xHc-Vi-vlB" secondAttribute="trailing" id="VxE-2l-quD"/>
+                            <constraint firstItem="3ih-W4-VqH" firstAttribute="leading" secondItem="Ji5-h2-iMZ" secondAttribute="leading" id="WaP-N2-Qzj"/>
                             <constraint firstItem="Ji5-h2-iMZ" firstAttribute="leading" secondItem="xHc-Vi-vlB" secondAttribute="leading" id="bb6-W2-5e7"/>
                             <constraint firstItem="xHc-Vi-vlB" firstAttribute="top" secondItem="gJg-Rh-hf7" secondAttribute="top" priority="100" constant="493" id="dOk-3n-2B2"/>
                             <constraint firstItem="Kwe-DE-gkZ" firstAttribute="bottom" secondItem="XgD-85-6yW" secondAttribute="top" id="hdP-p6-f9L"/>
@@ -2410,6 +2633,7 @@ haircut and save money!</string>
                             <constraint firstItem="1Iu-uN-cX3" firstAttribute="leading" secondItem="gJg-Rh-hf7" secondAttribute="leadingMargin" constant="-11" id="kbF-wG-9eA"/>
                             <constraint firstItem="Kwe-DE-gkZ" firstAttribute="trailing" secondItem="stD-Et-vb9" secondAttribute="trailing" id="nyG-vr-mNT"/>
                             <constraint firstItem="Ji5-h2-iMZ" firstAttribute="bottom" secondItem="XgD-85-6yW" secondAttribute="top" id="ogA-Oc-dXW"/>
+                            <constraint firstItem="3ih-W4-VqH" firstAttribute="trailing" secondItem="stD-Et-vb9" secondAttribute="trailing" id="ox7-EB-L5S"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -2418,6 +2642,7 @@ haircut and save money!</string>
                                 <exclude reference="stD-Et-vb9"/>
                                 <exclude reference="xHc-Vi-vlB"/>
                                 <exclude reference="Ji5-h2-iMZ"/>
+                                <exclude reference="3ih-W4-VqH"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="DOL-jh-KZP"/>
@@ -2428,6 +2653,10 @@ haircut and save money!</string>
                                 <exclude reference="nyG-vr-mNT"/>
                                 <exclude reference="NXL-CS-zfP"/>
                                 <exclude reference="kbF-wG-9eA"/>
+                                <exclude reference="EKP-wA-Uh0"/>
+                                <exclude reference="TRh-6W-m7Q"/>
+                                <exclude reference="WaP-N2-Qzj"/>
+                                <exclude reference="ox7-EB-L5S"/>
                                 <exclude reference="228-7T-11B"/>
                                 <exclude reference="VxE-2l-quD"/>
                                 <exclude reference="bb6-W2-5e7"/>
@@ -2449,6 +2678,7 @@ haircut and save money!</string>
                                 <include reference="stD-Et-vb9"/>
                                 <include reference="xHc-Vi-vlB"/>
                                 <include reference="Ji5-h2-iMZ"/>
+                                <include reference="3ih-W4-VqH"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="DOL-jh-KZP"/>
@@ -2459,6 +2689,10 @@ haircut and save money!</string>
                                 <include reference="nyG-vr-mNT"/>
                                 <include reference="NXL-CS-zfP"/>
                                 <include reference="kbF-wG-9eA"/>
+                                <include reference="EKP-wA-Uh0"/>
+                                <include reference="TRh-6W-m7Q"/>
+                                <include reference="WaP-N2-Qzj"/>
+                                <include reference="ox7-EB-L5S"/>
                                 <include reference="228-7T-11B"/>
                                 <include reference="VxE-2l-quD"/>
                                 <include reference="bb6-W2-5e7"/>
@@ -2479,6 +2713,7 @@ haircut and save money!</string>
                         <outlet property="bgImg" destination="Kwe-DE-gkZ" id="9Bu-A4-Qri"/>
                         <outlet property="bookView" destination="xHc-Vi-vlB" id="2rY-7O-8ub"/>
                         <outlet property="mapView" destination="Ji5-h2-iMZ" id="NbZ-jQ-PqH"/>
+                        <outlet property="pricesView" destination="3ih-W4-VqH" id="Gah-SD-34Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e78-9m-Vh0" userLabel="First Responder" sceneMemberID="firstResponder"/>
