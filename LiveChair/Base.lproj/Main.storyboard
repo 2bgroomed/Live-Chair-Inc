@@ -1580,7 +1580,7 @@ haircut and save money!</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="input" translatesAutoresizingMaskIntoConstraints="NO" id="Npj-QT-UJV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="input" translatesAutoresizingMaskIntoConstraints="NO" id="Npj-QT-UJV">
                                 <rect key="frame" x="20" y="97" width="240" height="128"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Cut name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gd9-Aq-CYf">
@@ -1667,27 +1667,27 @@ haircut and save money!</string>
                                 <exclude reference="74V-LJ-V4y"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="5NU-yq-6WZ"/>
-                                <exclude reference="cq6-yK-7M1"/>
-                                <exclude reference="476-fp-2jq"/>
-                                <exclude reference="QqD-Yp-8Cs"/>
-                                <exclude reference="YiA-dg-QXJ"/>
-                                <exclude reference="gHr-Ug-buX"/>
-                                <exclude reference="16U-B6-OtX"/>
-                                <exclude reference="oFb-4Y-OMU"/>
-                                <exclude reference="7ag-za-O3P"/>
-                                <exclude reference="Ca3-zQ-COV"/>
-                                <exclude reference="MnW-DR-jUl"/>
-                                <exclude reference="aqo-di-Ldx"/>
-                                <exclude reference="Xkw-el-W3H"/>
-                                <exclude reference="w35-wQ-cRn"/>
                                 <exclude reference="DP4-2k-fZf"/>
                                 <exclude reference="Sg7-Xe-Qdh"/>
                                 <exclude reference="Vty-cT-A6N"/>
                                 <exclude reference="ynY-3d-0VG"/>
+                                <exclude reference="476-fp-2jq"/>
+                                <exclude reference="QqD-Yp-8Cs"/>
+                                <exclude reference="YiA-dg-QXJ"/>
+                                <exclude reference="gHr-Ug-buX"/>
+                                <exclude reference="7ag-za-O3P"/>
+                                <exclude reference="Ca3-zQ-COV"/>
+                                <exclude reference="MnW-DR-jUl"/>
+                                <exclude reference="aqo-di-Ldx"/>
                                 <exclude reference="KhU-TA-rwB"/>
                                 <exclude reference="UGA-k7-Q0w"/>
                                 <exclude reference="aeW-nD-8cK"/>
+                                <exclude reference="16U-B6-OtX"/>
+                                <exclude reference="oFb-4Y-OMU"/>
+                                <exclude reference="Xkw-el-W3H"/>
+                                <exclude reference="w35-wQ-cRn"/>
+                                <exclude reference="5NU-yq-6WZ"/>
+                                <exclude reference="cq6-yK-7M1"/>
                                 <exclude reference="Ls9-cx-xjb"/>
                             </mask>
                         </variation>
@@ -1701,27 +1701,27 @@ haircut and save money!</string>
                                 <include reference="74V-LJ-V4y"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="5NU-yq-6WZ"/>
-                                <include reference="cq6-yK-7M1"/>
-                                <include reference="476-fp-2jq"/>
-                                <include reference="QqD-Yp-8Cs"/>
-                                <include reference="YiA-dg-QXJ"/>
-                                <include reference="gHr-Ug-buX"/>
-                                <include reference="16U-B6-OtX"/>
-                                <include reference="oFb-4Y-OMU"/>
-                                <include reference="7ag-za-O3P"/>
-                                <include reference="Ca3-zQ-COV"/>
-                                <include reference="MnW-DR-jUl"/>
-                                <include reference="aqo-di-Ldx"/>
-                                <include reference="Xkw-el-W3H"/>
-                                <include reference="w35-wQ-cRn"/>
                                 <include reference="DP4-2k-fZf"/>
                                 <include reference="Sg7-Xe-Qdh"/>
                                 <include reference="Vty-cT-A6N"/>
                                 <include reference="ynY-3d-0VG"/>
+                                <include reference="476-fp-2jq"/>
+                                <include reference="QqD-Yp-8Cs"/>
+                                <include reference="YiA-dg-QXJ"/>
+                                <include reference="gHr-Ug-buX"/>
+                                <include reference="7ag-za-O3P"/>
+                                <include reference="Ca3-zQ-COV"/>
+                                <include reference="MnW-DR-jUl"/>
+                                <include reference="aqo-di-Ldx"/>
                                 <include reference="KhU-TA-rwB"/>
                                 <include reference="UGA-k7-Q0w"/>
                                 <include reference="aeW-nD-8cK"/>
+                                <include reference="16U-B6-OtX"/>
+                                <include reference="oFb-4Y-OMU"/>
+                                <include reference="Xkw-el-W3H"/>
+                                <include reference="w35-wQ-cRn"/>
+                                <include reference="5NU-yq-6WZ"/>
+                                <include reference="cq6-yK-7M1"/>
                                 <include reference="Ls9-cx-xjb"/>
                             </mask>
                         </variation>
@@ -2645,12 +2645,7 @@ haircut and save money!</string>
                                 <exclude reference="3ih-W4-VqH"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="DOL-jh-KZP"/>
-                                <exclude reference="HJV-Ge-Yyb"/>
-                                <exclude reference="P46-GK-4hY"/>
-                                <exclude reference="RBQ-xz-UAY"/>
-                                <exclude reference="hdP-p6-f9L"/>
-                                <exclude reference="nyG-vr-mNT"/>
+                                <exclude reference="DM2-Kt-1z6"/>
                                 <exclude reference="NXL-CS-zfP"/>
                                 <exclude reference="kbF-wG-9eA"/>
                                 <exclude reference="EKP-wA-Uh0"/>
@@ -2661,14 +2656,19 @@ haircut and save money!</string>
                                 <exclude reference="VxE-2l-quD"/>
                                 <exclude reference="bb6-W2-5e7"/>
                                 <exclude reference="ogA-Oc-dXW"/>
+                                <exclude reference="DOL-jh-KZP"/>
+                                <exclude reference="HJV-Ge-Yyb"/>
+                                <exclude reference="P46-GK-4hY"/>
+                                <exclude reference="RBQ-xz-UAY"/>
+                                <exclude reference="hdP-p6-f9L"/>
+                                <exclude reference="nyG-vr-mNT"/>
+                                <exclude reference="6Nl-8z-WCR"/>
+                                <exclude reference="Q1a-tK-011"/>
+                                <exclude reference="R1m-hn-Yf1"/>
                                 <exclude reference="Abh-vJ-Bx5"/>
                                 <exclude reference="Icu-6j-rW2"/>
                                 <exclude reference="dOk-3n-2B2"/>
                                 <exclude reference="k0c-sr-FjQ"/>
-                                <exclude reference="6Nl-8z-WCR"/>
-                                <exclude reference="Q1a-tK-011"/>
-                                <exclude reference="R1m-hn-Yf1"/>
-                                <exclude reference="DM2-Kt-1z6"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -2681,12 +2681,7 @@ haircut and save money!</string>
                                 <include reference="3ih-W4-VqH"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="DOL-jh-KZP"/>
-                                <include reference="HJV-Ge-Yyb"/>
-                                <include reference="P46-GK-4hY"/>
-                                <include reference="RBQ-xz-UAY"/>
-                                <include reference="hdP-p6-f9L"/>
-                                <include reference="nyG-vr-mNT"/>
+                                <include reference="DM2-Kt-1z6"/>
                                 <include reference="NXL-CS-zfP"/>
                                 <include reference="kbF-wG-9eA"/>
                                 <include reference="EKP-wA-Uh0"/>
@@ -2697,14 +2692,19 @@ haircut and save money!</string>
                                 <include reference="VxE-2l-quD"/>
                                 <include reference="bb6-W2-5e7"/>
                                 <include reference="ogA-Oc-dXW"/>
+                                <include reference="DOL-jh-KZP"/>
+                                <include reference="HJV-Ge-Yyb"/>
+                                <include reference="P46-GK-4hY"/>
+                                <include reference="RBQ-xz-UAY"/>
+                                <include reference="hdP-p6-f9L"/>
+                                <include reference="nyG-vr-mNT"/>
+                                <include reference="6Nl-8z-WCR"/>
+                                <include reference="Q1a-tK-011"/>
+                                <include reference="R1m-hn-Yf1"/>
                                 <include reference="Abh-vJ-Bx5"/>
                                 <include reference="Icu-6j-rW2"/>
                                 <include reference="dOk-3n-2B2"/>
                                 <include reference="k0c-sr-FjQ"/>
-                                <include reference="6Nl-8z-WCR"/>
-                                <include reference="Q1a-tK-011"/>
-                                <include reference="R1m-hn-Yf1"/>
-                                <include reference="DM2-Kt-1z6"/>
                             </mask>
                         </variation>
                     </view>
@@ -2712,6 +2712,7 @@ haircut and save money!</string>
                         <outlet property="barberLbl" destination="oSl-AA-jah" id="L1f-8Y-j3b"/>
                         <outlet property="bgImg" destination="Kwe-DE-gkZ" id="9Bu-A4-Qri"/>
                         <outlet property="bookView" destination="xHc-Vi-vlB" id="2rY-7O-8ub"/>
+                        <outlet property="map" destination="v2b-qU-5TL" id="i06-4h-X5v"/>
                         <outlet property="mapView" destination="Ji5-h2-iMZ" id="NbZ-jQ-PqH"/>
                         <outlet property="pricesView" destination="3ih-W4-VqH" id="Gah-SD-34Q"/>
                     </connections>

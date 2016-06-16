@@ -16,7 +16,7 @@ class TheBarberViewController: UIViewController, UIActionSheetDelegate {
     @IBOutlet var bookView: UIView!
     @IBOutlet var mapView: UIView!
     @IBOutlet var pricesView: UIScrollView!
-    
+    @IBOutlet var map: MKMapView!
     
     @IBAction func backBtn(sender: UIButton) {
         dismissViewControllerAnimated(true, completion: nil)
@@ -48,6 +48,28 @@ class TheBarberViewController: UIViewController, UIActionSheetDelegate {
     }
     
     @IBAction func mapBtn(sender: UIButton) {
+        let request = MKLocalSearchRequest()
+        request.naturalLanguageQuery = selectedBarber["address"] as? String
+        request.region = map.region
+        let search = MKLocalSearch(request: request)
+        search.startWithCompletionHandler { response, _ in
+            guard let response = response else {
+                return
+            }
+            for item in response.mapItems {
+                print(item.placemark.coordinate.latitude)
+                let span = MKCoordinateSpanMake(0.05, 0.05)
+                let region = MKCoordinateRegion(center: item.placemark.coordinate, span: span)
+                self.map.setRegion(region, animated: true)
+                
+                let annotation = MKPointAnnotation()
+                annotation.coordinate = item.placemark.coordinate
+                annotation.title = selectedBarber["shop"] as? String
+                self.map.addAnnotation(annotation)
+                
+            }
+            
+        }
         mapView.hidden = false
     }
     
